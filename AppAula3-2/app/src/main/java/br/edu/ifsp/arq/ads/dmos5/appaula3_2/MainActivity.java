@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +13,48 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("ciclo", getClassName() + ".onCreate() foi chamado.");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("ciclo", getClassName() + ".onStart() foi chamado.");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("ciclo", getClassName() + ".onResume() foi chamado.");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("ciclo", getClassName() + ".onPause() foi chamado.");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d("ciclo", getClassName() + ".onStop() foi chamado.");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("ciclo", getClassName() + ".onRestart() foi chamado.");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("ciclo", getClassName() + ".onDestroy() foi chamado.");
+    }
+
+    private String getClassName() {
+        String nomeClasse = getClass().getName();
+        return nomeClasse.substring(nomeClasse.lastIndexOf("."));
     }
 
     public void onClickBtnEnviar(View view) {
