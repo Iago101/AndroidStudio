@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppAula4-2</string>
+    <string name="btn_selecionar">Selecionar um estado</string>
+    <string-array name="estados">
+        <item>Espírito Santo</item>
+        <item>Minas Gerais</item>
+        <item>Rio de Janeiro</item>
+        <item>São Paulo</item>
+    </string-array>
+</resources>

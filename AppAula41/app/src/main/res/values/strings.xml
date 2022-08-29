@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppAula4-1</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="btn_adicionar">Adicionar</string>
+</resources>
