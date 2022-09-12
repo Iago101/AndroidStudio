@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IFitnessApp</string>
+    <!-- Tela Principal -->
+    <string name="txt_principal_atividade">Principal Atividade</string>
+    <string name="txt_ultimas_atividades">Últimas Atividades</string>
+    <!-- Tela Cadastro de Atividades -->
+    <string name="txt_layout_data">Data</string>
+    <string name="txt_layout_duracao">Duração (min)</string>
+    <string name="txt_layout_distancia">Distância (Km)</string>
+
+    <array name="atividades">
+        <item>Caminhada</item>
+        <item>Ciclismo</item>
+        <item>Corrida</item>
+        <item>Natação</item>
+    </array>
+</resources>
