@@ -28,6 +28,8 @@
     <string name="txt_forgot_password">Esqueceu sua senha?</string>
     <string name="txt_no_account">Não tem cadastro?</string>
     <string name="txt_title_login">Login</string>
+    <string name="txt_layout_name">nome</string>
+    <string name="txt_layout_surname">sobrenome</string>
 
     <array name="atividades">
         <item>Caminhada</item>
