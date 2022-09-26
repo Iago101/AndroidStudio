@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">IFitnessApp</string>
+    <!-- Tela Principal -->
+    <string name="txt_principal_atividade">Principal Atividade</string>
+    <string name="txt_ultimas_atividades">Últimas Atividades</string>
+    <!-- Tela Cadastro de Atividades -->
+    <string name="txt_layout_data">Data</string>
+    <string name="txt_layout_duracao">Duração (min)</string>
+    <string name="txt_layout_distancia">Distância (Km)</string>
+    <string name="txt_title_new_activity">Nova Atividade</string>
+    <!-- Menu -->
+    <string name="txt_enter">Entrar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_new_activity">Nova Atividade</string>
+    <string name="menu_statistics">Estatísticas</string>
+    <string name="menu_ranking">Classificação</string>
+    <string name="menu_logout">Sair</string>
+    <string name="toggle_open">Abrir</string>
+    <string name="toggle_close">Fechar</string>
+    <!-- Tela de Cadastro de Usuário -->
+    <string name="txt_layout_email">E-mail</string>
+    <string name="txt_layout_password">Senha</string>
+    <string name="btn_cadastrar">CADASTRAR</string>
+    <string name="txt_title_new_user">Novo Usuário</string>
+    <!-- Tela de Login de Usuário -->
+    <string name="btn_login_enter">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu sua senha?</string>
+    <string name="txt_no_account">Não tem cadastro?</string>
+    <string name="txt_title_login">Login</string>
+<<<<<<< HEAD
+    <string name="txt_layout_name">nome</string>
+    <string name="txt_layout_surname">sobrenome</string>
+=======
+    <!-- Tela de Perfil de Usuário -->
+    <string name="txt_layout_name">Nome</string>
+    <string name="txt_layout_surname">Sobrenome</string>
+    <string name="txt_layout_address">Logradouro</string>
+    <string name="txt_layout_number">Número</string>
+    <string name="txt_layout_complement">Complemento</string>
+    <string name="txt_layout_district">Bairro</string>
+    <string name="txt_layout_city">Cidade</string>
+    <string name="txt_layout_zipecode">CEP</string>
+    <string name="btn_profile_update">Atualizar</string>
+    <string name="txt_title_profile">Perfil</string>
+>>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
+
+    <!-- array com os tipos de atividades físicas disponíveis -->
+    <string-array name="atividades">
+        <item>Caminhada</item>
+        <item>Ciclismo</item>
+        <item>Corrida</item>
+        <item>Natação</item>
+    </string-array>
+
+    <!-- array com os nomes da Unidades Federativas do Brasil -->
+    <string-array name="uf">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+        <item>Amazonas (AM)</item>
+        <item>Bahia (BA)</item>
+        <item>Ceará (CE)</item>
+        <item>Distrito Federal (DF)</item>
+        <item>Espírito Santo (ES)</item>
+        <item>Goiás (GO)</item>
+        <item>Maranhão (MA)</item>
+        <item>Mato Grosso (MT)</item>
+        <item>Mato Grosso do Sul (MS)</item>
+        <item>Minas Gerais (MG)</item>
+        <item>Pará (PA)</item>
+        <item>Paraíba (PB)</item>
+        <item>Paraná (PR)</item>
+        <item>Pernambuco (PE)</item>
+        <item>Piauí (PI)</item>
+        <item>Rio de Janeiro (RJ)</item>
+        <item>Rio Grande do Norte (RN)</item>
+        <item>Rio Grande do Sul (RS)</item>
+        <item>Rondônia (RO)</item>
+        <item>Roraima (RR)</item>
+        <item>Santa Catarina (SC)</item>
+        <item>São Paulo (SP)</item>
+        <item>Sergipe (SE)</item>
+        <item>Tocantins (TO)</item>
+    </string-array>
+</resources>
