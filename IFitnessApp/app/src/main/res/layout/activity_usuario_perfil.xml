@@ -5,12 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UsuarioPerfilActivity"
-<<<<<<< HEAD
-    android:orientation="vertical">
-=======
     android:orientation="vertical"
     android:gravity="center">
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -20,37 +16,21 @@
             android:layout_height="?attr/actionBarSize"/>
     </com.google.android.material.appbar.AppBarLayout>
 
-<<<<<<< HEAD
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-=======
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
         android:layout_marginTop="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-<<<<<<< HEAD
-            android:layout_gravity="center">
-=======
             android:gravity="center">
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
 
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:id="@+id/iv_profile_image"
-<<<<<<< HEAD
-                android:src="@drawable/ic_menu_account"
-                android:layout_gravity="center">
-            </ImageView>
-=======
                 android:src="@drawable/ic_menu_account"/>
 
             <LinearLayout
@@ -89,40 +69,10 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
-                android:layout_weight="1"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_marginTop="8dp"
-                android:layout_marginRight="8dp"
-                android:hint="@string/txt_layout_name">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/txt_edt_name"
-                    android:inputType="textCapWords|textPersonName" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_marginTop="8dp"
-                android:layout_marginRight="8dp"
-                android:hint="@string/txt_layout_surname">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/txt_edt_surname"
-                    android:inputType="textCapWords|textPersonName" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-=======
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
@@ -196,39 +146,12 @@
 
             </LinearLayout>
 
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
-<<<<<<< HEAD
-                android:hint="@string/txt_layout_email">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/txt_edt_email"
-                    android:inputType="textEmailAddress" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginRight="8dp"
-                android:text="Endereço"
-                android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:gravity="center">
-
-            </TextView>
-
-        </LinearLayout>
-    </ScrollView>
-
-=======
                 android:hint="@string/txt_layout_district">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -297,6 +220,5 @@
         </LinearLayout>
 
     </ScrollView>
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
 
 </LinearLayout>

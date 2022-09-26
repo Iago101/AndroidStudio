@@ -28,10 +28,6 @@
     <string name="txt_forgot_password">Esqueceu sua senha?</string>
     <string name="txt_no_account">Não tem cadastro?</string>
     <string name="txt_title_login">Login</string>
-<<<<<<< HEAD
-    <string name="txt_layout_name">nome</string>
-    <string name="txt_layout_surname">sobrenome</string>
-=======
     <!-- Tela de Perfil de Usuário -->
     <string name="txt_layout_name">Nome</string>
     <string name="txt_layout_surname">Sobrenome</string>
@@ -43,7 +39,6 @@
     <string name="txt_layout_zipecode">CEP</string>
     <string name="btn_profile_update">Atualizar</string>
     <string name="txt_title_profile">Perfil</string>
->>>>>>> fd59f24d9de5cbca9ea7e209c96baad5b52b4ebf
 
     <!-- array com os tipos de atividades físicas disponíveis -->
     <string-array name="atividades">
