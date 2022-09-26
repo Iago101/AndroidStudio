@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.nav_account:
                         intent = new Intent(MainActivity.this,
-                                UsuarioCadastroActivity.class);
+                                UsuarioPerfilActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.nav_new_activity:

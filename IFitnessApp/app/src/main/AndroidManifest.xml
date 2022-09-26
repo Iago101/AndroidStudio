@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IFitnessApp">
         <activity
+            android:name=".UsuarioPerfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".UsuarioLoginActivity"
             android:exported="false" />
         <activity

@@ -21,6 +21,20 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:hint="@string/txt_layout_name">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_edt_name"
+            android:inputType="textCapWords|textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
         android:hint="@string/txt_layout_email">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
